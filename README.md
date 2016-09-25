@@ -50,9 +50,9 @@ Flash chip size should 2x the size of the sketch for using OTA update for your E
 	* After uploading, restart your ESP8266 wifi module.
 
 ### Note:
-> If you went http://your-ip/fupdate and did authorization successfully but haven't uploaded new firmware then restart the ESP8266 module so the ESP8266's AP(access-point) mode will stop and don't consume unnecessary power.<br />
-> If firmware updation will **fail**, restart the ESP8266. It will re-run the old code and try to upload firmware again.<br />
-> Sometimes it takes 3-5 attempts to upload firmware successfully.
+> * If you went http://your-ip/fupdate and did authorization successfully but haven't uploaded new firmware then restart the ESP8266 module so the ESP8266's AP(access-point) mode will stop and don't consume unnecessary power.<br />
+> * If firmware updation will **fail**, restart the ESP8266. It will re-run the old code and try to upload firmware again.<br />
+> * Sometimes it takes 3-5 attempts to upload firmware successfully.
 
 
 ## Tools
